@@ -9,8 +9,8 @@ if distutils_path.endswith('__init__.py'):
     distutils_path = path.dirname(distutils_path)
 
 a = Analysis(
-    ['main.py'],
-    pathex=[],
+    ['.\\main\__main__.py'],
+    pathex=['.\\main'],
     binaries=[],
     datas=[],
     hiddenimports=['distutils'],

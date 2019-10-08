@@ -4,9 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pyinstaller = {file = "https://github.com/pyinstaller/pyinstaller/archive/develop.zip"}
+# pipenv run pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
 
 [packages]
+qtpy = "*"
+pyside2 = "*"
 
 [requires]
 python_version = "3.7"
